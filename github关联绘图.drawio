@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-09-24T12:08:55.824Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="0TVHUi6G3r1HR8hhKoVS" version="20.3.5" type="github">
+<mxfile host="app.diagrams.net" modified="2022-09-24T12:20:10.322Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="r5T1zN_EYmCaBQZY3xup" version="20.3.5" type="github" pages="2">
   <diagram id="IsAbBrgdhXNqj2QaHVPD" name="第 1 页">
     <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" background="none" math="0" shadow="0">
       <root>
@@ -48,6 +48,55 @@
         </mxCell>
         <mxCell id="55UrjOnX7V2l4Wr-pE-S-5" value="grant all on springbootv2.* to &#39;root&#39;@&#39;%&#39; identified by &#39;6789643&#39;with grant option;&lt;br&gt;这个Springbootv2就是数据库，root是用户，6789643是密码&lt;br&gt;&lt;br&gt;&lt;br&gt;" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="380" y="895" width="420" height="150" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="TPpwajXWYP-yBgv33QC5" name="第 2 页">
+    <mxGraphModel dx="1038" dy="547" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-2" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="TOUj_0BPEqng7Wx_Kj91-1" target="TOUj_0BPEqng7Wx_Kj91-3">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="70" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-1" value="前端页面" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="30" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-9" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="TOUj_0BPEqng7Wx_Kj91-3" target="TOUj_0BPEqng7Wx_Kj91-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-10" value="传ddl语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOUj_0BPEqng7Wx_Kj91-9">
+          <mxGeometry x="-0.2893" y="-1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-3" value="create table xxx" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="230" y="36.25" width="226" height="67.5" as="geometry" />
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="TOUj_0BPEqng7Wx_Kj91-5" target="TOUj_0BPEqng7Wx_Kj91-7">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="343" y="290" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-8" value="执行ddl语句" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="TOUj_0BPEqng7Wx_Kj91-6">
+          <mxGeometry x="-0.2267" y="1" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-5" value="&lt;div style=&quot;text-align: right;&quot;&gt;&lt;div&gt;&amp;nbsp; &amp;nbsp; 后端接口&lt;/div&gt;&lt;/div&gt;&lt;div style=&quot;text-align: justify;&quot;&gt;&lt;/div&gt;" style="rounded=0;whiteSpace=wrap;html=1;align=left;direction=west;" vertex="1" parent="1">
+          <mxGeometry x="283" y="190" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-7" value="db" style="shape=cylinder3;whiteSpace=wrap;html=1;boundedLbl=1;backgroundOutline=1;size=15;" vertex="1" parent="1">
+          <mxGeometry x="313" y="350" width="60" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-11" value="前端文本框，编写ddl语句" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="470" y="36.25" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="TOUj_0BPEqng7Wx_Kj91-12" value="check ddl的语句" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="345" y="145" width="110" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
